@@ -34,3 +34,14 @@ The application must have three endpoints:
 - what is the capacity of my service? How much can it handle/scale?
 - service should be observable
 - every decision made regarding the design of the service or the technologies may be questioned later
+
+
+## My solution
+
+The solution was designed considering the following technologies:
+- Spring WebFlux with Reactor (as non-functional requirement)
+- Actuator
+- Redis as the database
+
+The project is using Guava: Google Core Libraries for Java to generate the hashing from the
+url to shorten. 

@@ -1,12 +1,10 @@
 package com.github.vivyteam.repository;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.ReactiveRedisOperations;
 import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@Slf4j
 @Component
 public class ReactiveRedisComponent {
 
